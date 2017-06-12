@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel = 'stylesheet' style = 'text/css' href = 'style.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="jquery-3.2.1.min.js"></script>
+  </head>
+  <body>
+    <div class = 'container-fluid'>
+      <div class = 'container'>
+        <div class = "submit-url">
+          <h1 class = "text-center">Focus</h1>
+          <p>Enter base url of a website. <br>Ex: facebook.com, instagram.com</p>
+          <input type = "url" id = "url"></input>
+          <button class = "btn btn-danger btn-block" id = "block">Block</button>
+          <button class = "btn btn-info btn-block id" id = "reset">Reset</button>
+        </div>
+        <div>
+          <h4 class = "text-center"> Websites Blocked: </h4>
+          <table class = "table blocked-list">
+
+          </table>
+        </div>
+        <p>&copy; David Tang 2017</p>
+      </div>
+    </div>
+    <script src = 'popup.js'></script>
+  </body>
+</html>
