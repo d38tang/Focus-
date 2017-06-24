@@ -4,3 +4,7 @@ Chrome extension that blocks url match patterns of the base url that the user in
 priorities by preventing them from accessing distracting websites.
 
 Chrome Web Store link: https://chrome.google.com/webstore/detail/focus-website-blocker/fkemmknanigdnadcabhnljankdemknbi
+
+# Screenshot
+
+[Focus screenshot](/ss-1.png?raw=true "Screenshot")
