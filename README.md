@@ -7,4 +7,4 @@ Chrome Web Store link: https://chrome.google.com/webstore/detail/focus-website-b
 
 # Screenshot
 
-![Screenshot](Focus-/ss-1.PNG?raw=true "Screenshot")
+![screenshot](https://user-images.githubusercontent.com/23199529/27504910-d4c5c160-5861-11e7-9e9b-e1c39a4f2c26.PNG)
