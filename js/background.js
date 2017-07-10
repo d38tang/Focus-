@@ -87,3 +87,19 @@ var reset = function(){
 
   });
 }
+
+var onStart = function(){
+    
+    chrome.storage.sync.get('blocked_patterns', function(blockedSites){
+
+        if(blockedSites.blocked_patterns.length > 0){
+            chrome.webRequest.onBeforeRequest.addListener(blockRequest, {
+                    urls: blockedSites.blocked_patterns
+                }, ['blocking']);
+        }
+    
+    });
+}
+
+onStart();
+
